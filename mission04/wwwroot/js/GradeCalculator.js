@@ -48,6 +48,8 @@
         letter = "E"
     }
 
+    alert("Grade: " + grade + "% " + letter);
+
     $("#output").html("Grade: " + grade + "% "+ letter);
 
 });
